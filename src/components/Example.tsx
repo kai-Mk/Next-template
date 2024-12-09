@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react';
 
 const Example = () => {
-    return <div>サンプル用コンポーネント</div>;
+	return (
+		<>
+			<h1>こんにちは</h1>
+			<div>サンプル用コンポーネント</div>
+		</>
+	);
 };
 
 export default Example;
